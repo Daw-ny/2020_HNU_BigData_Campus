@@ -134,3 +134,27 @@
 >> 전처리_상세주소로_위도와경도뽑아내기.R
 >> - 각 지하철 역의 위치를 위도와 경도로 뽑아내는 작업을 진행하였습니다.
 
+<h3> ⚙️ Architecture </h3>
+<table>
+  <tr>
+    <td> <div align=center> <b> 분류 </b> </div> </td>
+    <td> <div align=center> <b> 내용 </b> </div> </td>
+  </tr>
+  <tr>
+    <td> <div align=center> <b> 모델 </b> </div> </td>
+    <td> <b>기계학습</b>: <tt>Decision Tree</tt>, <tt>Random Forest</tt>, <tt>Logistic Regression</tt></br>
+         <b>클러스터링</b>: <tt>t-sne</tt> </td>
+  </tr>
+  <tr>
+    <td> <div align=center> <b> 데이터 </b> </div> </td>
+    <td> <b>공공데이터</b>: 지하철정보, 상가정보 </td>
+  </tr>
+  <tr>
+    <td> <div align=center> <b> 모델 평가 및 해석 </b> </div> </td>
+    <td> <b>Voting</b>: 분류기 중 가장 성능이 좋은 모델을 선택 </td>
+  </tr>
+</table>
+
+
+
+
