@@ -151,7 +151,8 @@
   </tr>
   <tr>
     <td> <div align=center> <b> 모델 평가 및 해석 </b> </div> </td>
-    <td> <b>Voting</b>: 분류기 중 가장 성능이 좋은 모델을 선택 </td>
+    <td> <b>Voting</b>: 분류기 중 가장 성능이 좋은 모델을 선택 </br>
+         <b>clustering</b>: 실루엣 방법과 팔꿈치 이론으로 최적의 그룹을 선정</td>
   </tr>
 </table>
 
